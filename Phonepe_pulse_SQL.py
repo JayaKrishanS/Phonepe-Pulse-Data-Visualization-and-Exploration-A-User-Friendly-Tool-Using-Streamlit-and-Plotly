@@ -1,6 +1,6 @@
 import psycopg2
 import csv
-Jk = psycopg2.connect(host="localhost",user="postgres",password="123123123",port=5432,database="Phonepe-Pulse")
+Jk = psycopg2.connect(host="localhost",user="postgres",password="*********",port=5432,database="Phonepe-Pulse")
 x = Jk.cursor()
 
 
